@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ftf:layout-artefact xmlns="http://www.w3.org/1999/xhtml" xmlns:ftf="urn:FTF-namespace">
+	<h1 id="body-title">
+		<img src="image/feather.png" alt="[feather]" title="feather" id="title-logo"/>
+		<ftf:token ftf:id="body-header"/>
+		<ftf:token ftf:id="header-content"/>
+	</h1>
+	<ftf:lang-list/>
+</ftf:layout-artefact>

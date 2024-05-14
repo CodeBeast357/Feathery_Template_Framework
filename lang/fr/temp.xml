@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ftf:locale xmlns="http://www.w3.org/1999/xhtml" xmlns:ftf="urn:FTF-namespace">
+	<ftf:value ftf:id="title">Fichier exemplaire</ftf:value>
+	<ftf:value ftf:id="header-content">Fichier exemplaire</ftf:value>
+	<ftf:value ftf:id="explanation">Exemples de formulaires standards</ftf:value>
+	<ftf:value ftf:id="test1">Formulaire synchrone</ftf:value>
+	<ftf:value ftf:id="test2">Formulaire asynchrone</ftf:value>
+	<ftf:value ftf:id="id1">Prénom</ftf:value>
+	<ftf:value ftf:id="id2">Nom</ftf:value>
+	<ftf:value ftf:id="pwd">Mot de passe</ftf:value>
+	<ftf:value ftf:id="pic">Avatar</ftf:value>
+	<ftf:value ftf:id="size">Taille</ftf:value>
+	<ftf:value ftf:id="size1">16x16 pi</ftf:value>
+	<ftf:value ftf:id="size2">32x32 pi</ftf:value>
+	<ftf:value ftf:id="size3">48x48 pi</ftf:value>
+	<ftf:value ftf:id="elements">élément(s)</ftf:value>
+	<ftf:value ftf:id="elements1">Rouge</ftf:value>
+	<ftf:value ftf:id="elements2">Vert</ftf:value>
+	<ftf:value ftf:id="elements3">Bleu</ftf:value>
+	<ftf:value ftf:id="elements4">Jaune</ftf:value>
+	<ftf:value ftf:id="food">Nourriture favorite</ftf:value>
+	<ftf:value ftf:id="food1">Légumes</ftf:value>
+	<ftf:value ftf:id="food2">Fruits</ftf:value>
+	<ftf:value ftf:id="food3">Viande</ftf:value>
+	<ftf:value ftf:id="food4">Produits laitiers</ftf:value>
+	<ftf:value ftf:id="description">Ma description</ftf:value>
+</ftf:locale>

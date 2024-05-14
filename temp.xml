@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xslt-layout layout/layout.xml?>
+<?xslt-lang-tunnel lang/tunnel.xml?>
+<?xslt-build-config build/config.xml?>
+<?xml-stylesheet type="text/xsl" href="struct/standard.xsl"?>
+<html ftf:lang="fr" ftf:lang-ring="temp" xmlns:ftf="urn:FTF-namespace">
+	<head>
+		<script src="temp.js"></script>
+	</head>
+	<body>
+		<h3>
+			<ftf:token ftf:id="explanation"/>
+		</h3>
+		<ftf:standard-form ftf:type="static" ftf:name="test1" ftf:label="test1" ftf:method="get" ftf:action="test.php">
+			<ftf:input-field ftf:name="id1" ftf:label="id1" ftf:type="text" ftf:importance="unique"/>
+			<ftf:input-field ftf:name="id2" ftf:label="id2" ftf:type="text" ftf:importance="unique"/>
+			<ftf:input-field ftf:name="pwd" ftf:label="pwd" ftf:type="password" ftf:importance="required"/>
+			<ftf:input-field ftf:name="pic" ftf:label="pic" ftf:type="file" ftf:importance="optional"/>
+			<ftf:input-field ftf:name="size" ftf:label="size" ftf:type="radio" ftf:default="1">
+				<ftf:option ftf:label="size1" ftf:value="1"/>
+				<ftf:option ftf:label="size2" ftf:value="2"/>
+				<ftf:option ftf:label="size3" ftf:value="3"/>
+			</ftf:input-field>
+			<ftf:input-field ftf:name="elements" ftf:label="elements" ftf:type="checkbox" ftf:default="1,2">
+				<ftf:option ftf:label="elements1" ftf:value="1"/>
+				<ftf:option ftf:label="elements2" ftf:value="2"/>
+				<ftf:option ftf:label="elements3" ftf:value="3"/>
+				<ftf:option ftf:label="elements4" ftf:value="4"/>
+			</ftf:input-field>
+			<ftf:input-field ftf:name="food" ftf:label="food" ftf:type="select-multiple" ftf:default="F,D" ftf:size="3">
+				<ftf:option ftf:label="food1" ftf:value="V"/>
+				<ftf:option ftf:label="food2" ftf:value="F"/>
+				<ftf:option ftf:label="food3" ftf:value="M"/>
+				<ftf:option ftf:label="food4" ftf:value="D"/>
+			</ftf:input-field>
+			<ftf:input-field ftf:name="description" ftf:label="description" ftf:type="textarea" ftf:default="description" ftf:importance="required"/>
+		</ftf:standard-form>
+		<ftf:standard-form ftf:type="dynamic" ftf:name="test2" ftf:label="test2" ftf:method="post" ftf:action="test.php">
+			<ftf:input-field ftf:name="id1" ftf:label="id1" ftf:type="text" ftf:importance="unique"/>
+			<ftf:input-field ftf:name="id2" ftf:label="id2" ftf:type="text" ftf:importance="unique"/>
+			<ftf:input-field ftf:name="pwd" ftf:label="pwd" ftf:type="password" ftf:importance="required"/>
+			<ftf:input-field ftf:name="pic" ftf:label="pic" ftf:type="file" ftf:importance="optional"/>
+			<ftf:input-field ftf:name="size" ftf:label="size" ftf:type="radio" ftf:default="1">
+				<ftf:option ftf:label="size1" ftf:value="1"/>
+				<ftf:option ftf:label="size2" ftf:value="2"/>
+				<ftf:option ftf:label="size3" ftf:value="3"/>
+			</ftf:input-field>
+			<ftf:input-field ftf:name="elements" ftf:label="elements" ftf:type="checkbox" ftf:default="1,2">
+				<ftf:option ftf:label="elements1" ftf:value="1"/>
+				<ftf:option ftf:label="elements2" ftf:value="2"/>
+				<ftf:option ftf:label="elements3" ftf:value="3"/>
+				<ftf:option ftf:label="elements4" ftf:value="4"/>
+			</ftf:input-field>
+			<ftf:input-field ftf:name="food" ftf:label="food" ftf:type="select-multiple" ftf:default="F,D" ftf:size="3">
+				<ftf:option ftf:label="food1" ftf:value="V"/>
+				<ftf:option ftf:label="food2" ftf:value="F"/>
+				<ftf:option ftf:label="food3" ftf:value="M"/>
+				<ftf:option ftf:label="food4" ftf:value="D"/>
+			</ftf:input-field>
+			<ftf:input-field ftf:name="description" ftf:label="description" ftf:type="textarea" ftf:default="description" ftf:importance="required"/>
+		</ftf:standard-form>
+	</body>
+</html>

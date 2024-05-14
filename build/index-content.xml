@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ftf:layout-artefact xmlns="http://www.w3.org/1999/xhtml" xmlns:ftf="urn:FTF-namespace">
+	<div id="index-value">
+		<h2>
+			<ftf:token ftf:id="index-title"/>
+		</h2>
+		<ftf:token ftf:id="index-content"/>
+		<ftf:nav-list/>
+	</div>
+	<div id="index-control">
+		<a id="index-hider">
+			<ftf:token ftf:id="index-hider"/>
+		</a> | <a id="index-shower">
+			<ftf:token ftf:id="index-shower"/>
+		</a>
+	</div>
+</ftf:layout-artefact>

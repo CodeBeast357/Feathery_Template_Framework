@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ftf:locale xmlns="http://www.w3.org/1999/xhtml" xmlns:ftf="urn:FTF-namespace">
+	<ftf:value ftf:id="head-title">Nothing to see here - <ftf:token ftf:id="title"/></ftf:value>
+	<ftf:value ftf:id="index-content">Please be quiet in the library.</ftf:value>
+	<ftf:value ftf:id="index-title">Website Summary</ftf:value>
+	<ftf:value ftf:id="index-hider">Hide</ftf:value>
+	<ftf:value ftf:id="index-shower">Show</ftf:value>
+	<ftf:value ftf:id="body-header">Once upon a time... </ftf:value>
+	<ftf:value ftf:id="body-footer">THE END</ftf:value>
+	<ftf:value ftf:id="footer-content"></ftf:value>
+	<ftf:value ftf:id="lang-list">Language:</ftf:value>
+	<ftf:value ftf:id="submit-button-label">Submit</ftf:value>
+	<ftf:value ftf:id="reset-button-label">Reset</ftf:value>
+	<ftf:value ftf:id="file-button-label">Browse...</ftf:value>
+</ftf:locale>

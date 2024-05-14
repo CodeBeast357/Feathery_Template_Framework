@@ -1,0 +1,78 @@
+digraph ftf {
+    compound=true
+    graph [bgcolor=transparent]
+    node  [style=filled]
+
+    index       [shape=plaintext label=<
+      <table cellborder="0" cellspacing="0"><tr>
+        <td port="p0" width="150">&nbsp;</td>
+        <td port="p1" width="150">&nbsp;</td>
+        <td port="p2" width="150">index</td>
+        <td port="p3" width="150">&nbsp;</td>
+        <td port="p4" width="150">&nbsp;</td>
+      </tr></table>>]
+    common      [label="common.xsl" shape=box]
+    comstyle    [label="common.css" shape=parallelogram]
+    config      [label="config.xml" shape=ellipse]
+    content     [label="content.xml" shape=ellipse]
+    data        [label="data.xml" shape=ellipse]
+    defstyle    [label="default.css" shape=parallelogram]
+    defxml      [label="default.xsl" shape=box]
+    lang        [label="tunnel.xml" shape=ellipse]
+    layout      [label="layout.xml" shape=ellipse]
+    layout_view [label="layout-view.xsl" shape=box]
+    news        [label="news.xml" shape=ellipse]
+    nwstyle     [label="news.xsl" shape=box]
+    parser      [label="parser.xsl" shape=box]
+    plain       [label="plain.xsl" shape=box]
+    standard    [label="standard.xsl" shape=box]
+
+    subgraph cluster0 {
+        graph   [label="Localization\n/lang"]
+        lang
+        parser
+    }
+
+    subgraph cluster1 {
+        graph   [label="Structure\n/struct"]
+        common
+        defxml
+        nwstyle
+        plain
+        standard
+    }
+
+    subgraph cluster2 {
+        graph   [label="Configuration\n/config"]
+        config
+    }
+
+    subgraph cluster3 {
+        graph   [label="Layout\n/layout"]
+        layout
+        layout_view
+    }
+
+    subgraph cluster4 {
+        graph   [label="Presentation\n/style"]
+        comstyle
+        defstyle
+    }
+
+    content  -> index:p3    [label="parses" arrowhead=dot]
+    data     -> index:p2    [label="parses" arrowhead=dot]
+    defstyle -> comstyle    [label="includes" arrowhead=onormal]
+    defxml   -> common      [label="includes" arrowhead=onormal]
+    defxml   -> parser      [label="includes" arrowhead=onormal]
+    index:p0 -> lang        [label="uses" arrowhead=vee, lhead=cluster0]
+    index:p1 -> nwstyle     [label="transforms" arrowhead=normal, lhead=cluster1]
+    index:p2 -> config      [label="uses" arrowhead=vee, lhead=cluster2]
+    index:p3 -> layout      [label="uses" arrowhead=vee, lhead=cluster3]
+    index:p4 -> defstyle    [label="styles" arrowhead=normal, lhead=cluster4]
+    layout   -> layout_view [label="transforms" arrowhead=normal]
+    news     -> index:p1    [label="parses" arrowhead=dot]
+    nwstyle  -> defxml      [label="includes" arrowhead=onormal]
+    parser   -> lang        [label="uses" arrowhead=vee]
+    plain    -> common      [label="includes" arrowhead=onormal]
+    standard -> defxml      [label="includes" arrowhead=onormal]
+}

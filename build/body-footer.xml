@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ftf:layout-artefact xmlns="http://www.w3.org/1999/xhtml" xmlns:ftf="urn:FTF-namespace">
+	<div>
+		<ftf:token ftf:id="body-footer"/>
+	</div>
+	<div class="validator">
+		<a href="http://validator.w3.org/check?uri=referer">
+			<img style="width:88px;height:16px" src="image/XML1_0.png" alt="[Valid XML]" title="Validate my XML"/>
+		</a>
+		<a href="http://validator.w3.org/check?uri=referer">
+			<!-- <img src="image/valid-xhtml10-blue.png" alt="[Valid XHTML 1.0 Transitional]" title="Validate my XHTML"/> -->
+			<img style="width:88px;height:16px" src="image/xhtml1_0.png" alt="[Valid XHTML 1.0 Transitional]" title="Validate my XHTML"/>
+		</a>
+		<a href="http://jigsaw.w3.org/css-validator/validator?uri=referer">
+			<!-- <img src="image/vcss-blue.png" alt="[Valid CSS!]" title="Validate my CSS stylesheet"/> -->
+			<img style="width:88px;height:16px" src="image/cssB.png" alt="[Valid CSS!]" title="Validate my CSS stylesheet"/>
+		</a>
+		<a href="http://validator.w3.org/feed/check.cgi?url=referer">
+			<img src="image/valid-atom.png" alt="[Valid Atom 1.0]" title="Validate my Atom 1.0 feed"/>
+		</a>
+		<img style="width:80px;height:15px" src="image/hatom.png" alt="[Valid hAtom 1.0]"/>
+		<a href="http://validator.w3.org/feed/check.cgi?url=referer">
+			<img src="image/valid-rss.png" alt="[Valid RSS]" title="Validate my RSS feed"/>
+		</a>
+		<img style="width:80px;height:15px" src="image/hcal.png" alt="[Valid hCal 1.0]"/>
+		<img style="width:80px;height:15px" src="image/hcard.png" alt="[Valid hCard 1.0]"/>
+	</div>
+	<ftf:token ftf:id="footer-content"/>
+</ftf:layout-artefact>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xslt-layout layout/layout.xml?>
+<?xslt-lang-tunnel lang/tunnel.xml?>
+<?xslt-build-config build/config.xml?>
+<?xml-stylesheet type="text/xsl" href="struct/default.xsl"?>
+<html lang="en" ftf:lang-ring="title" xmlns:ftf="urn:FTF-namespace">
+	<body>
+		<h1>
+			<ftf:token ftf:id="title"/>
+		</h1>
+		<a href="temp.xml">
+			<ftf:token ftf:id="temp-link"/>
+		</a>
+	</body>
+</html>

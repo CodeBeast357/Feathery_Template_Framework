@@ -1,0 +1,48 @@
+/*
+ * Specifications
+ */
+/* hCalender 1.0-2.0 */
+.vevent,.h-event{
+}
+.vevent .dtstart,.h-event .dt-start{
+}
+.vevent .summary,.h-event .p-summary{
+}
+/* hCard 1.0-2.0 */
+.vcard/*,.h-card*/{
+}
+.vcard .fn/*,.h-card .p-name*/{
+}
+.vcard .n{
+}
+.vcard .n .additional-name{
+}
+.vcard .n .family-name{
+}
+.vcard .n .given-name{
+}
+.vcard .n .honorific-prefix{
+}
+.vcard .n .honorific-suffix{
+}
+/*
+ * Drafts
+ */
+/* hNews 1.0 */
+.hnews{
+}
+.hnews .hentry{
+}
+.hnews .source-org{
+}
+/* hAtom 1.0 */
+.hatom{
+}
+.hatom .hentry{
+}
+.hatom .hentry .author{
+}
+.hatom .hentry .entry-title{
+}
+.hatom .hentry .updated{
+}

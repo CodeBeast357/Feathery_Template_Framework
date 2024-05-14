@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="layout-view.xsl"?>
+<html xmlns:ftf="urn:FTF-namespace">
+	<head>
+		<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+		<title>
+			<ftf:layout-component ftf:role="head-title" ftf:type="plain" />
+		</title>
+		<ftf:layout-component ftf:role="head-components" />
+	</head>
+	<body>
+		<div id="body-content">
+			<ftf:layout-component ftf:role="body-content" />
+		</div>
+		<div id="index-content">
+			<ftf:layout-component ftf:role="index-content" ftf:type="artefact" />
+		</div>
+		<div id="body-header">
+			<ftf:layout-component ftf:role="body-header" ftf:type="artefact" />
+		</div>
+		<div id="body-footer">
+			<ftf:layout-component ftf:role="body-footer" ftf:type="artefact" />
+		</div>
+	</body>
+</html>

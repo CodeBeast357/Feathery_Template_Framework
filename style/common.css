@@ -1,0 +1,52 @@
+﻿@charset "UTF-8";
+a:link{
+	color:blue;
+}
+a:visited{
+	color:purple;
+}
+a:hover{
+	color:teal;
+}
+a:active{
+	color:yellow;
+}
+a:focus{
+	color:red;
+}
+a img{
+	border:none;
+}
+p{
+	text-align:justify;
+	text-indent:4ex;
+}
+li{
+	margin-left:1ex;
+}
+table{
+	border:1px outset black;
+}
+td{
+	padding:.25ex;
+	border:1px inset black;
+}
+legend{
+	color:blue;
+}
+abbr,acronym{
+	border-bottom: .1em dotted;
+	cursor: help;
+}
+.bold{
+	font-weight: bold;
+}
+.italic{
+	font-style:italic;
+}
+.left{
+	text-align:left;
+}
+.right{
+	text-align:right;
+}

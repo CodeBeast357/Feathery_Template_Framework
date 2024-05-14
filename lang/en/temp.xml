@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ftf:locale xmlns="http://www.w3.org/1999/xhtml" xmlns:ftf="urn:FTF-namespace">
+	<ftf:value ftf:id="title">Example file</ftf:value>
+	<ftf:value ftf:id="header-content">Example file</ftf:value>
+	<ftf:value ftf:id="explanation">Some standard forms</ftf:value>
+	<ftf:value ftf:id="test1">Synchronous Form</ftf:value>
+	<ftf:value ftf:id="test2">Asynchronous Form</ftf:value>
+	<ftf:value ftf:id="id1">First name</ftf:value>
+	<ftf:value ftf:id="id2">Last name</ftf:value>
+	<ftf:value ftf:id="pwd">Password</ftf:value>
+	<ftf:value ftf:id="pic">Avatar</ftf:value>
+	<ftf:value ftf:id="size">Size</ftf:value>
+	<ftf:value ftf:id="size1">16x16 pi</ftf:value>
+	<ftf:value ftf:id="size2">32x32 pi</ftf:value>
+	<ftf:value ftf:id="size3">48x48 pi</ftf:value>
+	<ftf:value ftf:id="elements">Element(s)</ftf:value>
+	<ftf:value ftf:id="elements1">Red</ftf:value>
+	<ftf:value ftf:id="elements2">Green</ftf:value>
+	<ftf:value ftf:id="elements3">Blue</ftf:value>
+	<ftf:value ftf:id="elements4">Yellow</ftf:value>
+	<ftf:value ftf:id="food">Favorite food(s)</ftf:value>
+	<ftf:value ftf:id="food1">Vegetables</ftf:value>
+	<ftf:value ftf:id="food2">Fruits</ftf:value>
+	<ftf:value ftf:id="food3">Meat</ftf:value>
+	<ftf:value ftf:id="food4">Dairy products</ftf:value>
+	<ftf:value ftf:id="description">Your description</ftf:value>
+</ftf:locale>

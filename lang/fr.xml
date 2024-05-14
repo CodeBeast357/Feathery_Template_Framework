@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ftf:locale xmlns="http://www.w3.org/1999/xhtml" xmlns:ftf="urn:FTF-namespace">
+	<ftf:value ftf:id="head-title">L'abîme du néant - <ftf:token ftf:id="title"/></ftf:value>
+	<ftf:value ftf:id="index-content">Veuillez garder le silence dans la bibliothèque.</ftf:value>
+	<ftf:value ftf:id="index-title">Index du site</ftf:value>
+	<ftf:value ftf:id="index-hider">Cacher</ftf:value>
+	<ftf:value ftf:id="index-shower">Afficher</ftf:value>
+	<ftf:value ftf:id="body-header">Il étais une fois...</ftf:value>
+	<ftf:value ftf:id="body-footer">FIN</ftf:value>
+	<ftf:value ftf:id="footer-content"></ftf:value>
+	<ftf:value ftf:id="lang-list">Langue:</ftf:value>
+	<ftf:value ftf:id="submit-button-label">Soummettre</ftf:value>
+	<ftf:value ftf:id="reset-button-label">Effacer</ftf:value>
+	<ftf:value ftf:id="file-button-label">Parcourir...</ftf:value>
+</ftf:locale>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tunnel default="en" xmlns="urn:FTF-namespace">
+	<section id="en" label="english"/>
+	<section id="fr" label="français"/>
+</tunnel>

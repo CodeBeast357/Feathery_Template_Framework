@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ftf:locale xmlns="http://www.w3.org/1999/xhtml" xmlns:ftf="urn:FTF-namespace">
+	<ftf:value ftf:id="title">Index page</ftf:value>
+	<ftf:value ftf:id="header-content">Index page</ftf:value>
+	<ftf:value ftf:id="temp-link">Example file for the Feathery Template Framework</ftf:value>
+</ftf:locale>
